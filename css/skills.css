@@ -1,0 +1,78 @@
+
+    /** The max-width and margin property keeps the content within my main element 80% of the screen width and centered on the page **/ 
+    /* main {
+        padding-top: 2em;
+        max-width: 80rem;
+        margin: auto;
+    } */
+
+
+    /* section img {
+        float: left;
+        padding-right: .75em;
+    
+    } */
+    
+    /** Adds padding evenly (1em) to all sides **/
+
+    body{
+        background: white;
+        width: 90%;
+        border: 2px solid black;
+         margin-left: 5%;
+        /* margin-right: 0%; */
+        /* margin-top: 0.2%;  */
+        padding: 0.2%;
+        color: #000;
+    }
+    p{
+        padding: 2%;
+    }
+    a{
+        color: rgb(78, 26, 126);
+    }
+    h2, h1{
+        /* margin-left: 4%; */
+        margin-right: 0%;
+        text-align: center;
+    }
+
+    section.atf {
+        padding: 1em;
+        background: #ededed;
+        border: none;
+        clear: both;
+        margin: 0%;
+        /* width: 100%; */
+
+    }
+    main li{
+        clear: both;
+    }
+    .atf ul li{
+        float: left;
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        border: none;
+        text-align: center;
+    }
+    main p{
+        margin-left: 5%;
+    }
+    
+
+    ul {
+        display: block;
+        /* list-style-type: disc; */
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+        text-align: center;
+        align-content: center;
+      }
+      p{
+          margin-bottom: 0%;
+      }
